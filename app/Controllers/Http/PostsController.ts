@@ -50,7 +50,7 @@ export default class PostsController {
   }
 
   // DELETE barang by id
-  public async delete ({ request, response, params }: HttpContextContract) {
+  public async delete ({ response, params }: HttpContextContract) {
     const barang = await Post.find(params.idbarang)
     response.abortIf(!barang, 'Barang not found', 404)
     barang?.delete()
