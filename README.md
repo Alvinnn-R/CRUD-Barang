@@ -110,10 +110,6 @@ Debug the project creation process. This flag will use the verbose output for be
 npm init adonis-ts-app hello-world -- --debug
 ```
 
-<div align="center">
-  <sub>Built with ❤︎ by <a href="https://github.com/thetutlage">Harminder Virk</a>
-</div>
-
 [npm-image]: https://img.shields.io/npm/v/create-adonis-ts-app/latest.svg?style=for-the-badge&logo=npm
 [npm-url]: https://www.npmjs.com/package/create-adonis-ts-app/v/alpha "npm"
 
