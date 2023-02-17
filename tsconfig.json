@@ -29,7 +29,9 @@
       "@adonisjs/core",
       "@japa/preset-adonis/build/adonis-typings",
       "@adonisjs/lucid",
-      "@adonisjs/view"
+      "@adonisjs/view",
+      "@adonisjs/auth",
+      "@adonisjs/session"
     ]
   }
 }
